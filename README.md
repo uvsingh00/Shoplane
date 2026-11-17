@@ -1,24 +1,70 @@
-# E-CommerceWebsite
-A mobile responsive sample of E-Commerce Website using HTML, CSS, JavaScript and APIs.
+# Shoplane — E-Commerce Website
 
-**Author:** Yuvraj Singh
- 
- 
- 
-### Home page
-![1](https://user-images.githubusercontent.com/17312616/65086776-b1beb080-d9d0-11e9-9983-143d61ed8fdc.png)
+A mobile-responsive sample e-commerce web application built using HTML, CSS, JavaScript, and REST APIs.
 
+**Author:** [Yuvraj Singh](https://github.com/uvsingh00)  
+**Repository:** [https://github.com/uvsingh00/Shoplane](https://github.com/uvsingh00/Shoplane)
 
+---
 
-### Content Description page
-![2](https://user-images.githubusercontent.com/17312616/65086777-b1beb080-d9d0-11e9-9e2b-af3b7210bdf3.png)
+## 🛍️ Features
 
+- **Product Showcase**: Displays clothing and accessories loaded dynamically from a REST API.
+- **Hero Slider**: Auto-rotating promotional carousel for featured products.
+- **Product Details Page**: Detailed view with multi-image gallery preview, descriptions, and pricing.
+- **Cart Management**: Add products to cart, track item count in navigation badge, and view checkout list.
+- **Order Placement**: Complete checkout flow with order confirmation screen.
+- **Responsive Design**: Designed to work cleanly across mobile, tablet, and desktop devices.
 
+---
 
-### Ordered List page
-![3](https://user-images.githubusercontent.com/17312616/65086778-b2574700-d9d0-11e9-9377-8e4886f582a8.png)
+## 🛠️ Built With
 
+- **HTML5** & **CSS3**
+- **JavaScript (ES6+)**
+- **jQuery**
+- **Slick Carousel**
+- **FontAwesome**
+- **MockAPI** (Product data backend)
 
+---
 
-### Order confirm page
-![4](https://user-images.githubusercontent.com/17312616/65086779-b2efdd80-d9d0-11e9-95d5-4b1a48eafe04.png)
+## 🚀 How to Run Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/uvsingh00/Shoplane.git
+   cd Shoplane
+   ```
+
+2. **Serve the project:**
+   Start a local HTTP server (required for loading HTML partials and API data):
+   ```bash
+   python3 -m http.server 8000
+   ```
+
+3. **Open in browser:**
+   Visit `http://localhost:8000` in your web browser.
+
+---
+
+## 📁 Project Structure
+
+```
+├── index.html            # Main homepage
+├── header.html           # Site header and navigation
+├── footer.html           # Site footer and credits
+├── slider.html           # Carousel hero banner
+├── content.html          # Product listing container
+├── contentDetails.html   # Product details page
+├── cart.html             # Cart and order review
+├── orderPlaced.html      # Order confirmation page
+├── js/                   # Vendor libraries (jQuery)
+├── css/                  # Page-specific stylesheets
+└── img/                  # Carousel banner assets
+```
+
+---
+
+## 📄 License
+This project is open source and available for educational purposes.
